@@ -11,6 +11,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Revenue-Yield-Management-Optimization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Revenue-Yield-Management-Optimization?style=flat-square&logo=github&color=blue" alt="Forks"/></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-brightgreen.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Revenue-Yield-Management-Optimization/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 > 💡 **A comprehensive, SEO-curated directory of top Revenue Yield Management and Optimization platforms** — spanning enterprise SaaS/Hosted commercial solutions, algorithmic dynamic pricing engines, automated demand forecasting systems, and battle-tested open-source repositories for hotels, airlines, vacation rentals, travel tech, and subscription businesses.
@@ -27,6 +28,8 @@
 - [📊 Comparison Matrix](#-comparison-matrix)
 - [🔍 SEO Key Concepts & Algorithmic Foundations](#-seo-key-concepts--algorithmic-foundations)
 - [🤝 Contributing](#-contributing)
+- [💖 Support](#-support)
+- [⭐ Star History](#-star-history)
 - [📄 License](#-license)
 
 ---
@@ -134,6 +137,24 @@ Contributions are warmly welcomed! If you maintain or discover an open-source dy
 3. **Submit a Pull Request** with a descriptive summary of features.
 
 Please ensure added repositories are active, genuinely open-source, and provide value to the pricing and revenue management community.
+
+---
+
+## 💖 Support
+
+If you find this repository valuable for your research, team, or projects, please consider supporting the project:
+
+- 🌟 **Star the repository** to boost visibility and help others discover it
+- 🍴 **Fork it** to contribute new algorithms, tools, and benchmarks
+- 📢 **Share it** with colleagues, pricing analysts, and data science communities
+- ☕ **Buy me a coffee / Sponsor on GitHub**: Support ongoing curation and maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)
+
+Thank you for being part of the open revenue intelligence community! 🙌
+
+---
+
+##  Star History
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Revenue-Yield-Management-Optimization&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Revenue-Yield-Management-Optimization&type=date&legend=top-left)
 
 ---
 
