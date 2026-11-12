@@ -61,9 +61,9 @@ Below is the curated selection of market-leading commercial Revenue Management S
 
 ## 🟩 Open-Source Software
 
-Curated open-source libraries, microservices, and platforms for building custom revenue optimization engines, dynamic pricing algorithms, and hospitality management systems. **Sorted in descending order by GitHub Stars**:
+Curated open-source libraries, microservices, and platforms for building custom revenue optimization engines, dynamic pricing algorithms, and hospitality management systems. **Sorted in descending order by GitHub_Stars**:
 
-| Repository 📦 | GitHub Stars ⭐ | Primary Tech Stack 🛠️ | License 📜 | Focus Area 🎯 | Description & Architectural Highlights 💡 |
+| Repository 📦 | GitHub_Stars ⭐ | Primary Tech Stack 🛠️ | License 📜 | Focus Area 🎯 | Description & Architectural Highlights 💡 |
 |---|---|---|---|---|---|
 | **[Qloapps/QloApps](https://github.com/Qloapps/QloApps)** | [![Stars](https://img.shields.io/github/stars/Qloapps/QloApps?style=social&color=white)](https://github.com/Qloapps/QloApps/stargazers) | PHP / MySQL / Bootstrap | Open Source | Hotel PMS & Channel Management | Production-grade open-source hotel management platform combining PMS, booking engine, responsive guest portal, and dynamic seasonal pricing rules based on live occupancy. |
 | **[getlago/lago](https://github.com/getlago/lago)** | [![Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers) | Ruby on Rails / Go / PostgreSQL | AGPL-3.0 | Metering, Billing & Subscription Revenue | Open-source metering and usage-based billing engine powering revenue optimization, real-time consumption tracking, pay-per-use rating, and dynamic subscription tiering. |
