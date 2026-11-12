@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#090d16; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; border-radius:12px; overflow:hidden;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <linearGradient id="areaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.4"/>
+    </pattern>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.25; transform: scale(1); }
+      50% { opacity: 0.55; transform: scale(1.08); }
+    }
+    @keyframes floatParticle {
+      0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+      50% { transform: translateY(-15px) translateX(10px); opacity: 0.8; }
+    }
+    @keyframes waveDash {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -1200; }
+    }
+    @keyframes pillFloat1 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    @keyframes pillFloat2 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(6px); }
+    }
+    .dynamic-glow {
+      animation: pulseGlow 6s ease-in-out infinite alternate;
+      transform-origin: center;
+    }
+    .moving-curve {
+      stroke-dasharray: 8 6;
+      animation: waveDash 35s linear infinite;
+    }
+    .pill-1 { animation: pillFloat1 4s ease-in-out infinite; }
+    .pill-2 { animation: pillFloat2 4.5s ease-in-out infinite; }
+    .particle { animation: floatParticle 5s ease-in-out infinite alternate; }
+  </style>
+
+  <!-- Deep Background Layer -->
+  <rect width="1200" height="360" fill="url(#bgGrad)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+
+  <!-- Dynamic Ambient Glow Blobs in Background -->
+  <g class="dynamic-glow">
+    <circle cx="200" cy="80" r="140" fill="#38bdf8" opacity="0.12" filter="url(#glow)"/>
+    <circle cx="1000" cy="240" r="160" fill="#818cf8" opacity="0.15" filter="url(#glow)"/>
+    <circle cx="650" cy="180" r="180" fill="#c084fc" opacity="0.08" filter="url(#glow)"/>
+  </g>
+
+  <!-- Animated Chart Wave Graphics (Background Decorative Layer, stays low) -->
+  <g opacity="0.75">
+    <!-- Area fill under yield curve -->
+    <path d="M 50 310 Q 250 280 400 240 T 750 180 T 950 120 T 1150 90 L 1150 340 L 50 340 Z" fill="url(#areaGrad)"/>
+    <!-- Animated Curve -->
+    <path class="moving-curve" d="M 50 310 Q 250 280 400 240 T 750 180 T 950 120 T 1150 90" fill="none" stroke="url(#lineGrad)" stroke-width="3" filter="url(#glow)"/>
+  </g>
+
+  <!-- Floating Dynamic Yield Data Nodes / Particles -->
+  <circle class="particle" cx="400" cy="240" r="5" fill="#38bdf8" filter="url(#glow)"/>
+  <circle class="particle" cx="750" cy="180" r="6" fill="#818cf8" filter="url(#glow)"/>
+  <circle class="particle" cx="950" cy="120" r="5" fill="#ec4899" filter="url(#glow)"/>
+  <circle class="particle" cx="1150" cy="90" r="7" fill="#34d399" filter="url(#glow)"/>
+
+  <!-- Subtle Metric Badges / Floating Micro-Cards (Positioned to not overlap text) -->
+  <g class="pill-1" transform="translate(930, 30)">
+    <rect width="210" height="42" rx="21" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-width="1.2"/>
+    <circle cx="24" cy="21" r="7" fill="#10b981"/>
+    <text x="42" y="26" fill="#f8fafc" font-size="13" font-weight="600">Dynamic Yield: +34.8%</text>
+  </g>
+
+  <g class="pill-2" transform="translate(60, 260)">
+    <rect width="220" height="42" rx="21" fill="#1e293b" fill-opacity="0.8" stroke="#818cf8" stroke-width="1.2"/>
+    <circle cx="24" cy="21" r="7" fill="#6366f1"/>
+    <text x="42" y="26" fill="#f8fafc" font-size="13" font-weight="600">AI Pricing &amp; RevPAR Engine</text>
+  </g>
+
+  <!-- FOREGROUND: Clean, Legible, High-Contrast Title and Subtitle -->
+  <!-- Header Category Eyebrow -->
+  <g transform="translate(600, 105)" text-anchor="middle">
+    <rect x="-180" y="-18" width="360" height="32" rx="16" fill="#1e1b4b" fill-opacity="0.9" stroke="#6366f1" stroke-width="1.2"/>
+    <text x="0" y="3" fill="#a5b4fc" font-size="12" font-weight="700" letter-spacing="1.5">★ CURATED REVENUE INTELLIGENCE ★</text>
+  </g>
+
+  <!-- Main Title -->
+  <g transform="translate(600, 168)" text-anchor="middle">
+    <text fill="url(#textGrad)" font-size="40" font-weight="800" letter-spacing="-0.5" filter="url(#glow)">Awesome Revenue &amp; Yield Management</text>
+    <text fill="url(#textGrad)" font-size="40" font-weight="800" letter-spacing="-0.5">Awesome Revenue &amp; Yield Management</text>
+  </g>
+
+  <!-- Subtitle -->
+  <g transform="translate(600, 212)" text-anchor="middle">
+    <text fill="#94a3b8" font-size="16" font-weight="400" letter-spacing="0.2">
+      Dynamic Pricing • Demand Forecasting • Inventory Optimization • Hospitality &amp; Travel Tech
+    </text>
+  </g>
+
+  <!-- Feature Pills Bottom Foreground -->
+  <g transform="translate(600, 255)" text-anchor="middle">
+    <text fill="#cbd5e1" font-size="13" font-weight="500">
+      <tspan fill="#38bdf8">◆</tspan> Enterprise SaaS RMS  &nbsp;&nbsp;&nbsp;
+      <tspan fill="#818cf8">◆</tspan> Open-Source Algorithms  &nbsp;&nbsp;&nbsp;
+      <tspan fill="#34d399">◆</tspan> Littlewood &amp; EMSR  &nbsp;&nbsp;&nbsp;
+      <tspan fill="#f43f5e">◆</tspan> Autonomous AI Agents
+    </text>
+  </g>
+</svg>

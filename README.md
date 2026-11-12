@@ -1,192 +1,148 @@
-# Awesome-Revenue-Yield-Management-Optimization
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Revenue Yield Management &amp; Optimization" width="100%">
+</p>
 
-# Awesome Revenue Yield Management & Optimization
+# 🚀 Awesome Revenue Yield Management & Optimization 📈
 
-> A curated list of top Revenue Yield Management and Optimization platforms — both SaaS/Hosted commercial solutions and open-source alternatives for maximizing revenue through dynamic pricing, demand forecasting, and inventory control in hospitality, travel, and subscription businesses.
-> 🌟 Star this repo if you find it useful! 🌟
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Revenue-Yield-Management-Optimization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Revenue-Yield-Management-Optimization?style=flat-square&logo=github&color=gold" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Revenue-Yield-Management-Optimization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Revenue-Yield-Management-Optimization?style=flat-square&logo=github&color=blue" alt="Forks"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-brightgreen.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Revenue-Yield-Management-Optimization/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
+</p>
+
+> 💡 **A comprehensive, SEO-curated directory of top Revenue Yield Management and Optimization platforms** — spanning enterprise SaaS/Hosted commercial solutions, algorithmic dynamic pricing engines, automated demand forecasting systems, and battle-tested open-source repositories for hotels, airlines, vacation rentals, travel tech, and subscription businesses.
+>
+> 🌟 **Star this repository if you find it helpful!** 🌟
 
 ---
 
-## 📋 Table of Contents
+## 🧭 Table of Contents
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [IDeaS Revenue Solutions](#ideas-revenue-solutions)
-  - [Duetto](#duetto)
-  - [PROS Revenue Management](#pros-revenue-management)
-  - [Flyr Labs](#flyr-labs)
-  - [Beyond (Beyond Pricing)](#beyond-beyond-pricing)
-  - [PriceLabs](#pricelabs)
-  - [Wheelhouse](#wheelhouse)
-  - [RoomPriceGenie](#roompricegenie)
-- [Open-Source Software](#-open-source-software)
-  - [HAIP (Hotel AI Platform)](#haip-hotel-ai-platform)
-  - [revmng](#revmng)
-  - [QloApps](#qloapps)
-  - [OpenBRM](#openbrm)
-  - [AWS AI Hotel Revenue Optimization](#aws-ai-hotel-revenue-optimization)
-  - [RevNest](#revnest)
-  - [Dynamic Pricing Simulator](#dynamic-pricing-simulator)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+- [📊 Comparison Matrix](#-comparison-matrix)
+- [🔍 SEO Key Concepts & Algorithmic Foundations](#-seo-key-concepts--algorithmic-foundations)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global revenue management software ecosystem represents a rapidly expanding market valued at approximately **$3.7B – $8.7B combined** across aviation ($1.8B–$6.8B) and hospitality ($1.9B+, projected to surpass $4B+ by 2032 at an 8%–14% CAGR). The sector exhibits a distinctive structural dichotomy: it is **moderately-to-highly fragmented across independent hotels, boutique vacation rentals, and regional operators**, yet behaves as a **consolidated, "winner-take-most" oligopoly at the enterprise tier** (e.g., global hotel chains and Tier-1 commercial airlines).
+
+At enterprise scale, mission-critical integration barriers with Central Reservation Systems (CRS) and Property Management Systems (PMS)—combined with massive predictive data moats necessary for real-time continuous dynamic pricing and multi-agent AI offer generation—create formidable competitive lock-in favoring incumbent giants like PROS, SAS (IDeaS), and well-funded cloud disruptors like FLYR Labs. Conversely, the long-tail hospitality and short-term rental market remains highly competitive and fragmented, driving rapid adoption of self-serve SaaS platforms (PriceLabs, Beyond, Wheelhouse, RoomPriceGenie) and community-driven open-source alternatives.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Revenue Yield Management and Optimization platforms. These are not open-source but are included as reference points for feature comparison.
+Below is the curated selection of market-leading commercial Revenue Management Systems (RMS) and dynamic pricing platforms, **sorted in descending order by company scale (Revenue / Market Valuation)**:
 
-### IDeaS Revenue Solutions
-**Type:** Enterprise revenue management for hospitality
-IDeaS (SAS) is a long-standing enterprise standard for hotel revenue management, offering automated pricing, demand forecasting, and inventory optimization across chain and independent properties. It is widely deployed in large hotel groups requiring sophisticated yield logic and integration with property management systems.
-
-### Duetto
-**Type:** Cloud-native revenue management for hotels and casinos
-Duetto provides a cloud-native revenue management platform with open pricing, real-time demand forecasting, and group pricing optimization. It is positioned for hotels and casino resorts wanting modern, data-driven pricing without the rigidity of traditional rate fences.
-
-### PROS Revenue Management
-**Type:** AI-driven revenue and profit optimization for travel and B2B
-PROS provides AI-powered revenue management and dynamic pricing for airlines, travel, and B2B commerce. It focuses on maximizing profit through demand forecasting, price optimization, and offer management across complex selling environments.
-
-### Flyr Labs
-**Type:** AI pricing and revenue optimization for airlines and travel
-Flyr provides AI-driven pricing and revenue optimization, with a focus on continuous dynamic pricing and offer creation for airlines and travel companies. It is positioned for organizations wanting to move beyond traditional fare class structures.
-
-### Beyond (Beyond Pricing)
-**Type:** Dynamic pricing for vacation rentals and short-term rentals
-Beyond provides dynamic pricing for Airbnb, Vrbo, and other short-term rental channels, automatically adjusting nightly rates based on demand, seasonality, local events, and booking pace. It is a leading choice for independent hosts and property managers.
-
-### PriceLabs
-**Type:** Dynamic pricing and revenue management for rentals
-PriceLabs provides dynamic pricing, minimum-stay optimization, and revenue management for short-term rentals and vacation properties. It integrates with major PMS and channel managers, offering granular control over pricing strategies.
-
-### Wheelhouse
-**Type:** Dynamic pricing for short-term rentals
-Wheelhouse provides dynamic pricing and revenue management for vacation rentals, with customizable strategies and market data. It is positioned for hosts and managers wanting automated pricing without constant manual intervention.
-
-### RoomPriceGenie
-**Type:** Automated pricing for independent hotels
-RoomPriceGenie provides automated dynamic pricing for independent hotels and small chains, with a focus on simplicity and ease of use. It is positioned for properties that want revenue management without dedicated analyst resources.
+| Platform 🏢 | Target Sector 🎯 | Starting Tier Price 💳 | Free Tier / Trial Limit ⏱️ | Company Scale (Revenue / Valuation) 📊 | Key Strengths & Capabilities ⚡ |
+|---|---|---|---|---|---|
+| **[PROS Revenue Management](https://pros.com/)** | Airlines, Cargo & B2B Commerce | **$60 / user / month** *(PROS Smart CPQ Essentials; Enterprise RM via custom quote starting ~$1,500+/mo)* | **No free trial** *(0 days; private sandbox and customized enterprise evaluation by request)* | **~$1.4B Valuation** *(Delisted from NYSE at $1.4B acquisition by Thoma Bravo; ~$330M annual revenue)* | AI-driven dynamic pricing, continuous pricing, offer/order management, and willingness-to-pay modeling across complex inventory. |
+| **[FLYR Labs](https://flyr.com/)** | Airlines, Rail & Hospitality | **$1,000 / month** *(FusioRM entry tier; enterprise airline deployments scale via quote)* | **No free trial** *(0 days; custom onboarding demonstration with client historical data)* | **~$1.1B Valuation** *(Series D raised $295M in Aug 2024; ~$100M+ ARR estimate)* | Deep learning neural networks for continuous pricing, total revenue optimization, and unconstrained demand forecasting. |
+| **[IDeaS Revenue Solutions](https://ideas.com/)** | Hotels, Resorts & Parking | **$1,000 / month** *(IDeaS G3 RMS baseline starting rate for mid-sized properties)* | **No free trial** *(0 days; guided software walkthrough & historical revenue uplift audits only)* | **~$439M Revenue** *(Wholly-owned subsidiary of SAS Institute with $3B+ parent revenue)* | The gold standard in hospitality revenue management with automated room-type pricing, group evaluations, and overbooking optimization. |
+| **[Duetto](https://www.duettocloud.com/)** | Hotels, Casinos & Resorts | **$200 / property / month** *(GameChanger entry for select independent hotels; typical installs $500–$1,000/mo)* | **No free trial** *(0 days; guided pilot with live PMS integration sandbox only)* | **~$150M+ Valuation** *(Acquired by GrowthCurve Capital in 2024; raised $143M VC prior; ~$30M–$45M ARR)* | Pioneer of "Open Pricing" allowing independent yield management per room type, segment, and channel without fixed rate fences. |
+| **[Beyond](https://www.beyondpricing.com/)** | Vacation & Short-Term Rentals | **1.0% of booking revenue** *(Pay-as-you-book model; 1% to 1.25% fee tier)* | **$50 free booking credit** *(No fixed day cutoff; automated pricing is free until first $50 in fees is consumed)* | **~$210M Valuation** *(Raised $44M+ led by Bessemer Venture Partners; ~$20M–$35M ARR estimate)* | Real-time health scores, localized seasonality adjustments, pacing alerts, and direct synchronization to Airbnb, Vrbo, and major PMSs. |
+| **[PriceLabs](https://pricelabs.co/)** | Short-Term Rentals & Aparthotels | **$19.99 / listing / month** *(Flat software fee; scales down with portfolio volume)* | **30-day free trial** *(Full access to dynamic pricing algorithm; no credit card required upfront)* | **~$150M+ Valuation** *(Raised $30M Series A from Summit Partners; powers 160K+ listings; profitable bootstrapped roots)* | Granular customization, dynamic minimum-stay rules, hyper-local occupancy trends, and automated rate pushes across 100+ PMS integrations. |
+| **[RoomPriceGenie](https://roompricegenie.com/)** | Independent Hotels & B&Bs | **$119 / property / month** *(Core plan baseline for small properties up to ~15 rooms)* | **14-day free trial** *(Full access to automated rate recommendations & PMS connection; no card required)* | **~$75M Valuation** *(Secured $75M growth investment from Five Elms Capital; ~$9.7M ARR)* | Plug-and-play simplicity for independent hoteliers, transparent auto-pilot pricing, and automated 7-times-daily price recalculations. |
+| **[Wheelhouse](https://www.usewheelhouse.com/)** | Short-Term & Mid-Term Rentals | **$19.99 / listing / month** *(Pro Flat) or **1.0% / booking** ($2.99/mo minimum on Pro Flex)* | **Free Forever Plan** *(Unlimited free access to predictive market reports, rate insights, and 365-day forward pricing; pay only upon live calendar sync)* | **~$35M+ Valuation** *(Raised $35M in venture funding; ~$6M–$8M ARR estimate)* | Predictive demand curves, customizable pricing aggressiveness (Conservative, Moderate, Aggressive), and comprehensive STR market dashboards. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Revenue Yield Management and Optimization tools. The open-source ecosystem is **fragmented** across hotel PMS platforms with embedded revenue agents, airline/travel revenue libraries, and billing/revenue platforms rather than direct Duetto or IDeaS equivalents.
+Curated open-source libraries, microservices, and platforms for building custom revenue optimization engines, dynamic pricing algorithms, and hospitality management systems. **Sorted in descending order by GitHub Stars**:
 
-### HAIP (Hotel AI Platform)
-**Stack:** TypeScript / NestJS / PostgreSQL / React / Redis / BullMQ | **License:** Apache-2.0
-HAIP is an open-source hotel PMS with **built-in AI revenue agents**, positioned as infrastructure for independent hotels to compete with chains without $50K/year software [citation:10]. Key revenue features include:
-- **Four revenue agents**: Dynamic Pricing, Demand Forecast, Channel Mix Optimizer, and Overbooking Intelligence — applying airline revenue management math adapted for hotels
-- **Three operations agents**: Night Audit Anomaly Detection, Housekeeping Optimizer, Cancellation Predictor
-- **Three autonomy modes**: manual, suggest, and autopilot — hotels control how much autonomy the AI gets
-- **Channel distribution**: Booking.com direct adapter + SiteMinder adapter (450+ OTA/GDS channels)
-- **Core PMS**: Reservations, rooms, guests, housekeeping, folios, night audit, rate management, reports
-- **Payments**: Stripe integration with PCI compliance
-- **Authentication**: Keycloak with 6 roles and property-scoped access
-
-Fully containerized with 551 passing tests and ~100 API endpoints [citation:10]. **Note:** This is a comprehensive PMS with revenue management as one component, not a standalone revenue optimization tool.
-**Best for:** Independent hotels and property managers wanting a full open-source PMS with embedded AI revenue agents, accepting the operational overhead of a complete PMS deployment.
-
-### revmng
-**Stack:** Python | **License:** MIT
-revmng is an open-source revenue management library for Python with an accompanying MCP server (`revmng-mcp`) that exposes its capabilities as tools for AI agents [citation:4]. Key capabilities include:
-- **Seat protection**: Littlewood, EMSR-a, EMSR-b, and exact dynamic program
-- **Overbooking limits**: by service level or cost trade-off
-- **Newsvendor**: critical-fractile stocking quantity
-- **Optimal pricing**: profit-maximizing price for linear or constant-elasticity demand curves
-- **Revenue opportunity metric (ROM)**: against perfect and no-control benchmarks
-- **Group evaluation**: accept/reject by displacement analysis
-- **Stay evaluation**: accept/reject multi-night stays against nightly bid prices
-- **Network bid prices**: from deterministic LP
-- **Metrics**: RevPAR, ADR, occupancy, yield, load factor
-
-The library is validated against published worked examples (Phillips 2005) and cross-checked against an exact dynamic program. The MCP server is stateless and read-only, letting AI agents call deterministic, versioned calculations rather than doing the arithmetic themselves [citation:4].
-**Best for:** Developers and data scientists wanting a rigorous, validated revenue management library for airline/travel applications, or AI agent integration via MCP.
-
-### QloApps
-**Stack:** PHP / MySQL | **License:** Open Source
-QloApps is a free, open-source hotel management platform combining a PMS, booking engine, hotel website, and channel manager for hotels, B&Bs, and vacation rentals [citation:15]. Revenue management features include:
-- **Dynamic pricing** adjusted based on real-time occupancy and demand trends
-- **Reports and analytics** for performance insights across periods
-- **Channel manager** for real-time rate and inventory sync across OTAs
-- **Booking engine** with seasonal pricing and special offers
-
-The core software is free, with optional paid add-ons for revenue management, housekeeping, and online check-in. Channel manager subscriptions cost approximately $25-30/month/property [citation:15].
-**Best for:** Small hotels and B&Bs wanting a free, open-source PMS with basic revenue management features, accepting limited advanced reporting and optional paid add-ons.
-
-### OpenBRM
-**Stack:** Java 17 / Grails 6 / PostgreSQL | **License:** Open Source
-OpenBRM is an open-source billing and revenue management platform for telecom, subscription, and usage-based businesses [citation:3]. It handles the full cycle — customer accounts, products and plans, orders, rating, invoicing, and payments — in one system you can run and extend yourself. It supports payment gateway integration, batch billing runs, web service APIs, and configurable workflows for provisioning and account management. Positioned as a practical alternative to proprietary BRM suites like Oracle BRM [citation:3].
-**Best for:** Telecom and subscription businesses wanting open-source billing and revenue management, particularly those migrating from proprietary BRM systems.
-
-### AWS AI Hotel Revenue Optimization
-**Stack:** Python / CrewAI / Amazon Bedrock | **License:** MIT-0
-An AWS sample implementation of an AI-powered hotel revenue optimization system using multi-agent architecture [citation:7]. Features include:
-- **Multi-agent AI**: Specialized agents for demand forecasting, pricing optimization, and market analysis
-- **Real-time market intelligence**: Competitor pricing analysis and trend monitoring
-- **Demand forecasting**: Predictive analytics for occupancy and revenue projections
-- **Interactive web interface**: Flask-based dashboard with natural language queries
-
-Built on Amazon Bedrock AgentCore with support for Nova and Claude models, deployed on ECS Fargate with CloudFront CDN [citation:7]. **Note:** This is a sample/reference implementation rather than a production-ready product.
-**Best for:** AWS-centric teams wanting a reference architecture for AI-driven hotel revenue optimization, accepting that it is a sample rather than a supported product.
-
-### RevNest
-**Stack:** Python / PostgreSQL / WebApp | **License:** Open Source (hackathon project)
-RevNest is an AI-assisted revenue management platform for Airbnb hosts and small hotels, built as an NVIDIA hackathon project [citation:11]. Features include:
-- **Pricing agent (Revy)** that writes forecast prices and conversation summaries back to PostgreSQL
-- **Human approval flow** for live PMS sync — Revy does not directly mutate prices
-- **MockHotel PMS** for testing with manager login
-- **Airbnb pricing** support with min/max price and pricing horizon
-
-The runtime splits between a sandboxed "NemoClaw" path for hotels (policy-enforced safety) and host "OpenClaw" for Airbnb browsing [citation:11]. **Note:** This is a hackathon project and should be evaluated carefully before any production use.
-**Best for:** Developers interested in AI agent-based revenue management for short-term rentals, accepting early-stage maturity.
-
-### Dynamic Pricing Simulator
-**Stack:** Python / Flask / scikit-learn | **License:** Open Source
-A dynamic pricing simulation project that predicts demand, revenue, and profit for products across categories and recommends optimal prices using Machine Learning [citation:9]. Features include:
-- **ML-powered predictions** using Random Forest for demand, revenue, and profit
-- **Optimal price recommendation** based on trained models
-- **Interactive web interface** with Flask and Chart.js visualizations
-- **Synthetic dataset generator** for real-world market simulation
-
-Positioned as a retail pricing simulation rather than a hospitality/travel revenue management system [citation:9].
-**Best for:** Developers and analysts wanting a simple ML-based pricing simulator for retail scenarios, not a production revenue management platform.
+| Repository 📦 | GitHub Stars ⭐ | Primary Tech Stack 🛠️ | License 📜 | Focus Area 🎯 | Description & Architectural Highlights 💡 |
+|---|---|---|---|---|---|
+| **[Qloapps/QloApps](https://github.com/Qloapps/QloApps)** | [![Stars](https://img.shields.io/github/stars/Qloapps/QloApps?style=social&color=white)](https://github.com/Qloapps/QloApps/stargazers) | PHP / MySQL / Bootstrap | Open Source | Hotel PMS & Channel Management | Production-grade open-source hotel management platform combining PMS, booking engine, responsive guest portal, and dynamic seasonal pricing rules based on live occupancy. |
+| **[getlago/lago](https://github.com/getlago/lago)** | [![Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers) | Ruby on Rails / Go / PostgreSQL | AGPL-3.0 | Metering, Billing & Subscription Revenue | Open-source metering and usage-based billing engine powering revenue optimization, real-time consumption tracking, pay-per-use rating, and dynamic subscription tiering. |
+| **[meteroid-oss/meteroid](https://github.com/meteroid-oss/meteroid)** | [![Stars](https://img.shields.io/github/stars/meteroid-oss/meteroid?style=social&color=white)](https://github.com/meteroid-oss/meteroid/stargazers) | TypeScript / Node.js / PostgreSQL | Apache-2.0 | Pricing & Invoicing Infrastructure | Cloud-native pricing engine supporting grandfathered pricing, real-time quota limiting, consumption tracking, dynamic pricing experiments, and revenue analytics. |
+| **[tule2236/Airbnb-Dynamic-Pricing-Optimization](https://github.com/tule2236/Airbnb-Dynamic-Pricing-Optimization)** | [![Stars](https://img.shields.io/github/stars/tule2236/Airbnb-Dynamic-Pricing-Optimization?style=social&color=white)](https://github.com/tule2236/Airbnb-Dynamic-Pricing-Optimization/stargazers) | Python / Scikit-learn / Jupyter | MIT | Rental Pricing Optimization | Dynamic pricing optimization system using competitive cluster analysis, k-NN regression for demand forecasting, and profit-maximization linear programming models. |
+| **[DallasBuyer/awesome-dynamic-pricing](https://github.com/DallasBuyer/awesome-dynamic-pricing)** | [![Stars](https://img.shields.io/github/stars/DallasBuyer/awesome-dynamic-pricing?style=social&color=white)](https://github.com/DallasBuyer/awesome-dynamic-pricing/stargazers) | Markdown / Research / Resources | CC0-1.0 | Academic & Algorithmic Directory | Curated repository of academic papers, benchmark datasets, reinforcement learning frameworks, and code for dynamic pricing across ecommerce and hospitality. |
+| **[Kamra-PMS/kamra-pms](https://github.com/Kamra-PMS/kamra-pms)** | [![Stars](https://img.shields.io/github/stars/Kamra-PMS/kamra-pms?style=social&color=white)](https://github.com/Kamra-PMS/kamra-pms/stargazers) | Python / Frappe v16 / MariaDB | AGPL-3.0 | AI-Ready Hotel PMS | Agentic AI-ready hotel and short-term rental PMS featuring automated front-desk folios, booking engine, and Model Context Protocol (MCP) servers for autonomous AI management. |
+| **[TelivityAI/haip](https://github.com/TelivityAI/haip)** | [![Stars](https://img.shields.io/github/stars/TelivityAI/haip?style=social&color=white)](https://github.com/TelivityAI/haip/stargazers) | TypeScript / NestJS / PostgreSQL / Redis | Apache-2.0 | AI Revenue Management System | Enterprise-ready hotel PMS with 4 embedded autonomous AI agents: Dynamic Pricing, Demand Forecasting, Channel Mix Optimizer, and Overbooking Intelligence. |
+| **[flix-tech/RevPy](https://github.com/flix-tech/RevPy)** | [![Stars](https://img.shields.io/github/stars/flix-tech/RevPy?style=social&color=white)](https://github.com/flix-tech/RevPy/stargazers) | Python 3 / NumPy / SciPy | MIT | Transportation Revenue Management | Open-source Python library developed by FlixBus tech teams containing quantitative revenue management algorithms, seat allocation models, and yield tools. |
+| **[openbrms/openbrms](https://github.com/openbrms/openbrms)** | [![Stars](https://img.shields.io/github/stars/openbrms/openbrms?style=social&color=white)](https://github.com/openbrms/openbrms/stargazers) | Java / Spring Boot / Docker | Apache-2.0 | Business Rules & Billing Management | Cloud-native scripted business rules management system designed for telecom and SaaS subscription rating, catalog rules, and dynamic pricing decisions. |
+| **[edubu2/hotel-revman-system](https://github.com/edubu2/hotel-revman-system)** | [![Stars](https://img.shields.io/github/stars/edubu2/hotel-revman-system?style=social&color=white)](https://github.com/edubu2/hotel-revman-system/stargazers) | Python / Machine Learning / Streamlit | MIT | Hotel Demand & Pricing Forecasts | Complete machine learning framework modeling hotel supply/demand dynamics, guest cancellation probabilities, and revenue-maximizing room rates. |
+| **[airsim/rmol](https://github.com/airsim/rmol)** | [![Stars](https://img.shields.io/github/stars/airsim/rmol?style=social&color=white)](https://github.com/airsim/rmol/stargazers) | C++ / Boost / CMake | LGPL-2.1 | Airline RM Simulation Library | Production-grade C++ Simulation Revenue Management Open Library modeling airline seat allocation, booking arrivals, and multi-leg inventory controls. |
+| **[hospitalityos/hotel-ai-skills](https://github.com/hospitalityos/hotel-ai-skills)** | [![Stars](https://img.shields.io/github/stars/hospitalityos/hotel-ai-skills?style=social&color=white)](https://github.com/hospitalityos/hotel-ai-skills/stargazers) | Python / Claude MCP / JSON | Apache-2.0 | Claude Agent Hotel Skills | Claude AI plugin suite featuring 10 specialized agent skills for hotel revenue management, ADR forecasting, P&L analysis, and competitive rate scraping. |
+| **[aws-samples/sample-ai-hotel-revenue-management-system](https://github.com/aws-samples/sample-ai-hotel-revenue-management-system)** | [![Stars](https://img.shields.io/github/stars/aws-samples/sample-ai-hotel-revenue-management-system?style=social&color=white)](https://github.com/aws-samples/sample-ai-hotel-revenue-management-system/stargazers) | Python / CrewAI / Amazon Bedrock | MIT-0 | Multi-Agent Hospitality RM | Official AWS reference architecture implementing multi-agent hotel revenue optimization with Amazon Bedrock, local event monitoring, and competitor price tracking. |
+| **[arikanatakan/revmng](https://github.com/arikanatakan/revmng)** | [![Stars](https://img.shields.io/github/stars/arikanatakan/revmng?style=social&color=white)](https://github.com/arikanatakan/revmng/stargazers) | Python / MCP Server | MIT | Mathematical RM Computations | Rigorous implementation of fundamental revenue management math: Littlewood's rule, EMSR-a, EMSR-b, exact DP, network bid prices, and AI agent MCP tool integration. |
+| **[VirajBarapatre/dynamic-pricing-simulator](https://github.com/VirajBarapatre/dynamic-pricing-simulator)** | [![Stars](https://img.shields.io/github/stars/VirajBarapatre/dynamic-pricing-simulator?style=social&color=white)](https://github.com/VirajBarapatre/dynamic-pricing-simulator/stargazers) | Python / Flask / Scikit-learn | MIT | Retail Price Elasticity Simulator | Machine learning pricing simulator estimating product price elasticity of demand, predicted purchase volume, and maximum profit margins. |
+| **[JayceeWU/nvidia-hackathon-revnest](https://github.com/JayceeWU/nvidia-hackathon-revnest)** | [![Stars](https://img.shields.io/github/stars/JayceeWU/nvidia-hackathon-revnest?style=social&color=white)](https://github.com/JayceeWU/nvidia-hackathon-revnest/stargazers) | Python / PostgreSQL / NemoClaw | MIT | Agentic Airbnb & Hotel Pricing | AI-assisted revenue management system built for the NVIDIA hackathon featuring autonomous forecasting agents with human-in-the-loop PMS synchronization. |
 
 ---
 
-## 📊 Comparison at a Glance
+## 📊 Comparison Matrix
 
-| Software | License | Stack | Dynamic Pricing | Demand Forecast | Self-Hosted | Best For |
-|----------|---------|-------|-----------------|-----------------|-------------|----------|
-| **IDeaS** | Proprietary | Cloud | ✅ Enterprise | ✅ | ❌ | Large hotel chains |
-| **Duetto** | Proprietary | Cloud | ✅ Open pricing | ✅ | ❌ | Hotels + casinos |
-| **PROS** | Proprietary | Cloud | ✅ AI-driven | ✅ | ❌ | Airlines + B2B |
-| **Beyond** | Proprietary | Cloud | ✅ Short-term rental | ✅ | ❌ | Airbnb hosts |
-| **HAIP** | Apache-2.0 | TypeScript/NestJS | ✅ 4 AI agents | ✅ | ✅ | Full PMS + revenue agents |
-| **revmng** | MIT | Python | ✅ Optimal pricing | (Caller-supplied) | ✅ (Library) | Airline/travel RM library |
-| **QloApps** | Open Source | PHP/MySQL | ✅ Basic | (Reports) | ✅ | Small hotels/B&Bs |
-| **OpenBRM** | Open Source | Java/PostgreSQL | (Billing) | ❌ | ✅ | Telecom/subscription billing |
-| **RevNest** | Open Source | Python/Postgres | ✅ AI agent | (Check) | ✅ | Airbnb/small hotel (hackathon) |
+| Platform / Tool 🛠️ | Deployment Mode 🚀 | Core Mathematical Model 📐 | Target Industry 🏨 | Autopilot Capability 🤖 | Primary Integration Layer 🔗 |
+|---|---|---|---|---|---|
+| **PROS RM** | Cloud SaaS | Continuous Pricing & WTP Neural Nets | Airlines & Enterprise B2B | Full Autopilot & Manual Rules | PSS, GDS, NDC & Enterprise ERP |
+| **FLYR Labs** | Cloud SaaS | Deep Reinforcement Learning | Airlines & Large Hospitality | Full Autopilot | Modern Offer/Order Engines & PMS |
+| **IDeaS G3** | Cloud SaaS | Multi-variable Bayesian Optimization | Hotels, Chains & Parking | Hybrid & Autopilot | Opera PMS, Amadeus, SiteMinder |
+| **Duetto** | Cloud SaaS | Open Pricing Elasticity Curves | Hotels & Gaming Resorts | Assistive & Open Pricing | Major Hotel PMS & CRS Networks |
+| **Beyond** | Cloud SaaS | Neighborhood Demand & Pacing Index | Vacation & Short-Term Rentals | Full Auto-Sync | Airbnb, Vrbo, Guesty, Hostaway |
+| **PriceLabs** | Cloud SaaS | Hyper-local Market Hyper-Pacing | Vacation Rentals & Apartments | Full Auto-Sync & Custom Rules | 100+ PMSs & Channel Managers |
+| **RoomPriceGenie** | Cloud SaaS | Adaptive Occupancy Step-Pricing | Boutique & Independent Hotels | Auto-pilot (7x daily recalculations) | Cloudbeds, Mews, Little Hotelier |
+| **Wheelhouse** | Cloud SaaS | Predictive Elasticity Scoring | Vacation & Flexible Rentals | Auto-Sync (with free tier reports) | Airbnb, Vrbo, Guesty, Direct API |
+| **HAIP** | Self-Hosted | Airline EMSR adapted for Hotels | Independent Hotels & Resorts | 3 Modes (Manual, Suggest, Autopilot) | Booking.com Direct, SiteMinder (450+ OTAs) |
+| **revmng** | Python Lib / MCP | Littlewood, EMSR-a/b, Dynamic Prog. | Travel, Airlines & AI Agents | Programmatic / AI Agent Tools | Python API, MCP Server |
+| **RevPy (FlixBus)** | Python Library | Network Seat Protection & Yield | Bus, Rail & Shared Transport | Algorithmic Scripting | Python Data Science Workflows |
+| **RMOL** | C++ Library | Deterministic LP & Simulation | Aviation & Operations Research | High-Speed Simulation | C++ / Boost Microservices |
+
+---
+
+## 🔍 SEO Key Concepts & Algorithmic Foundations
+
+For researchers, software engineers, and revenue managers implementing dynamic pricing architectures, these foundational algorithmic paradigms drive modern yield management:
+
+### 1. Expected Marginal Seat Revenue (EMSR-a & EMSR-b)
+* **Origins:** Formulated by Peter Belobaba (MIT Flight Transportation Laboratory) building upon Littlewood’s two-class rule (1972).
+* **Objective:** Solves the multi-class single-resource allocation problem under perishable inventory conditions (e.g., airline flight departures or hotel room nights).
+* **Mechanism:** EMSR-b pools demand from lower-fare classes into a combined normal distribution, setting protection levels where the marginal revenue from preserving a seat for higher-paying customers matches the certain revenue from selling at the current lower rate.
+
+### 2. Network Bid Pricing & Deterministic Linear Programming (DLP)
+* **Application:** Multi-leg airline routing (hub-and-spoke) and multi-night hotel stay optimization.
+* **Mechanism:** Computes shadow prices (dual values) for each resource constraint. A booking request is accepted only if its revenue exceeds the sum of the opportunity costs (bid prices) of all consumed resources.
+
+### 3. Open Pricing vs. Traditional Rate Fencing
+* **Traditional Approach:** Rigid rate fencing tied to strict rules (e.g., non-refundable, advance purchase 14 days, Saturday night stayover).
+* **Open Pricing (Duetto model):** Each room category, distribution channel, and customer persona is dynamically priced independently across every date without static discounts or mandatory tier links.
+
+### 4. Key Performance Indicators (KPIs)
+* **RevPAR (Revenue Per Available Room):** $\text{RevPAR} = \text{ADR} \times \text{Occupancy Rate} = \frac{\text{Total Room Revenue}}{\text{Total Available Rooms}}$
+* **TRevPAR (Total RevPAR):** Measures total property yield including ancillary revenue (F&B, spa, parking, dynamic upsells).
+* **RevPASH (Revenue Per Available Seat Hour):** Standard optimization metric for restaurant and venue yield management.
+* **Load Factor & Yield (Airlines):** Ratio of passenger-kilometers traveled to available seat-kilometers.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Revenue Yield Management or Optimization tool that should be listed here, please open a pull request with:
+Contributions are warmly welcomed! If you maintain or discover an open-source dynamic pricing library, revenue optimization framework, or hotel/airline tech tool:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+1. **Fork the Repository** 🍴
+2. **Add Your Tool** under the relevant section in alphabetical or star-ranked order with tech stack and license details.
+3. **Submit a Pull Request** with a descriptive summary of features.
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem for **dedicated revenue yield management** is **very limited and fragmented**. **HAIP** is the most comprehensive open-source effort for hospitality, combining a full PMS with four AI revenue agents (Dynamic Pricing, Demand Forecast, Channel Mix Optimizer, Overbooking Intelligence) under Apache 2.0 [citation:10]. **revmng** fills a critical gap for airline/travel revenue management with a validated Python library and MCP server for AI agent integration [citation:4]. **QloApps** offers basic revenue management within a free hotel PMS [citation:15], while **OpenBRM** targets telecom/subscription billing rather than hospitality yield [citation:3]. Commercial platforms like IDeaS, Duetto, and PROS remain significantly more capable for enterprise-scale revenue optimization with sophisticated forecasting, competitive intelligence, and multi-property coordination.
+Please ensure added repositories are active, genuinely open-source, and provide value to the pricing and revenue management community.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This repository and curated list are distributed under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) Public Domain Dedication. Individual featured projects remain subject to their respective open-source licenses.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<p align="center">
+  ⭐ <b>Star this repository to bookmark the definitive guide to Revenue Yield Management &amp; Dynamic Pricing!</b> ⭐
+</p>
